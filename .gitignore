@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+
+# PyInstaller
+build/
+dist/
+*.manifest
+
+# Large binaries
+*.exe
+OllamaSetup.exe
+
+# Virtual environment
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+.openclaw/
+*.swp
+*.swo
+
+# Models (too large for git)
+vosk-models/
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Misc
+output.txt
